@@ -50,13 +50,16 @@ Cette application de **QCM (Questionnaire à Choix Multiples)** a été dévelop
    ```bash
    php artisan migrate --seed  
 5.Installez les dépendances du frontend :
-   ```bash
+   ```
    cd qcmfrontend  
-   npm install  
+   npm install
+   ```
 6. Lancez les serveurs :
    - **Backend*
       ```bash
-      php artisan serve  
+      php artisan serve
+      ```
    - **Frontend*
       ```bash
       npm run dev  
+      ```
