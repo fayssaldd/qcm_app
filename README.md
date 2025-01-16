@@ -55,11 +55,11 @@ Cette application de **QCM (Questionnaire à Choix Multiples)** a été dévelop
    npm install
    ```
 6. Lancez les serveurs :
-   - **Backend*
+   - **Backend**
       ```bash
       php artisan serve
       ```
-   - **Frontend*
+   - **Frontend**
       ```bash
       npm run dev  
       ```
