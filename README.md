@@ -37,4 +37,10 @@ Cette application de **QCM (Questionnaire à Choix Multiples)** a été dévelop
 1. Clonez ce dépôt :  
    ```bash  
    git clone https://github.com/fayssaldd/qcm_app.git
-   cd qcmapp 
+   cd qcmapp
+2. Installez les dépendances du backend :
+  ```bash
+   cd backend  
+   composer install  
+   cp .env.example .env  
+   php artisan key:generate 
