@@ -40,7 +40,22 @@ Cette application de **QCM (Questionnaire à Choix Multiples)** a été dévelop
    cd qcmapp
 2. Installez les dépendances du backend :
   ```bash
-   cd backend  
+   cd qcmback  
    composer install  
    cp .env.example .env  
-   php artisan key:generate 
+   php artisan key:generate
+3. Configurez la base de données dans le fichier .env du backend.
+4. Lancez les migrations et ajoutez des données de base :
+   ```bash
+   php artisan migrate --seed  
+5.Installez les dépendances du frontend :
+   ```bash
+   cd qcmfrontend  
+   npm install  
+6. Lancez les serveurs :
+   - **Backend*
+      ```bash
+      php artisan serve  
+   - **Frontend*
+      ```bash
+      npm run dev  
