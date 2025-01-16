@@ -43,7 +43,7 @@ Cette application de **QCM (Questionnaire à Choix Multiples)** a été dévelop
    cd qcmback  
    composer install  
    cp .env.example .env  
-   php artisan key:generate
+   php artisan key:generate```
 3. Configurez la base de données dans le fichier .env du backend.
 4. Lancez les migrations et ajoutez des données de base :
    ```bash
